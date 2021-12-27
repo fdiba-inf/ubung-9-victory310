@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Ellipse 1 2 3 2",
+      "setup": "cd src && javac exercise9/Utils.java exercise9/Point.java exercise9/Ellipse.java exercise9/EllipseDemo.java",
+      "run": "cd src && java -ea exercise9.EllipseDemo",
+      "input": "1 2 3 2",
+      "output": "Ellipse 1: (0.0, 0.0)-[1.0, 1.0], Circle, P=6.283185307179586, A=3.141592653589793\r\nEllipse 2: (2.0, 3.0)-[5.0, 6.0], Ellipse, P=34.628955940751425, A=94.24777960769379\r\nEllipse 3: (2.0, 3.0)-[5.0, 6.0], Ellipse, P=34.628955940751425, A=94.24777960769379\r\nEllipse 4: (1.0, 2.0)-[3.0, 2.0], Ellipse, P=15.865437575563961, A=18.84955592153876\r\nEllipse 2 equals Ellipse 1: false\r\nEllipse 2 equals Ellipse 3: true",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Ellipse 5 6 7 8",
+      "setup": "cd src && javac exercise9/Utils.java exercise9/Point.java exercise9/Ellipse.java exercise9/EllipseDemo.java",
+      "run": "cd src && java -ea exercise9.EllipseDemo",
+      "input": "5 6 7 8",
+      "output": "Ellipse 1: (0.0, 0.0)-[1.0, 1.0], Circle, P=6.283185307179586, A=3.141592653589793\r\nEllipse 2: (2.0, 3.0)-[5.0, 6.0], Ellipse, P=34.628955940751425, A=94.24777960769379\r\nEllipse 3: (2.0, 3.0)-[5.0, 6.0], Ellipse, P=34.628955940751425, A=94.24777960769379\r\nEllipse 4: (5.0, 6.0)-[7.0, 8.0], Ellipse, P=47.176264233903005, A=175.92918860102841\r\nEllipse 2 equals Ellipse 1: false\r\nEllipse 2 equals Ellipse 3: true",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
